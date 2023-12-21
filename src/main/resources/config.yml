@@ -1,0 +1,12 @@
+prefixes:
+  plugin: "&6&lSpigot-Ultimate &8&l»&r"
+  spy: "&5&lSpy &8&l»&r"
+
+format:
+  # All Placeholder API Placeholders
+  chat: "&8&l[&r%vault_groupprefix%&8&l]&r %player_name% &8&l»&r %message%"
+  # Only prefixes are spy_prefix, player_name, command_name
+  spy: "%spy_prefix% &a%player_name%&r executed &c/%command_name%&r."
+
+staff_permission: "su.perm.staff"
+player_not_found: "&cThis player is not online or never joined this server!"

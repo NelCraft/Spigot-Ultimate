@@ -1,0 +1,45 @@
+fly:
+  enabled: true
+  permission: "su.perm.fly.command"
+  no:
+    permission: "&cYou do not have enough permissions to use /fly!"
+    player: "&cOnly a player can use /fly!"
+  messages:
+    activated: "&a%player_name%&r can fly now."
+    deactivated: "&a%player_name%&r can't fly anymore."
+
+heal:
+  enabled: true
+  permission: "su.perm.heal.command"
+  no:
+    permission: "&cYou do not have enough permissions to use /heal!"
+    player: "&cOnly a player can use /heal!"
+  messages:
+    self: "You healed and fed yourself."
+    other: "&a%player_name%&r got healed and fed by &a%player_name%&r."
+
+spy:
+  enabled: true
+  permission: "su.perm.spy"
+  bypass_permission: "su.perm.spy.bypass"
+  syntax: "Syntax: /spy <Player>"
+  no:
+    permission: "&cYou do not have enough permissions to use /spy!"
+    player: "&cOnly a player can use /spy!"
+  messages:
+    activated: "You are now spying on &a%player_name%&r."
+    deactivated: "You stopped spying on &a%player_name%&r."
+    cant_spy:
+      self: "You can't spy on yourself!"
+      bypass: "You can't spy on the player &a%player_name%&r."
+
+vanish:
+  enabled: true
+  permission: "su.perm.vanish.command"
+  see_permission: "su.perm.vanish.see"
+  no:
+    permission: "&cYou do not have enough permissions to use /vanish!"
+    player: "&cOnly a player can use /vanish!"
+  messages:
+    activated: "&a%player_name%&r is now hidden for everybody except the staff team."
+    deactivated: "&a%player_name%&r is now visible to everybody again."

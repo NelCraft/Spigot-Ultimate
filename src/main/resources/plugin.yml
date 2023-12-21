@@ -1,0 +1,17 @@
+name: Spigot-Ultimate
+version: 1.0.0
+main: me.nelmin.kotlin.SpigotUltimate
+description: An massive Minecraft Server System with many features.
+author: NelminDev (Gaming_Banane)
+website: https://spigotmc.org/resource/1/
+api-version: '1.20'
+depend: ["PlaceholderAPI"]
+commands:
+  fly:
+    description: "Can you really fly?"
+  heal:
+    description: "So you wanna cheat?"
+  spy:
+    description: "I can see you…"
+  vanish:
+    description: "Hide or Show yourself."
